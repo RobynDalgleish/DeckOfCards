@@ -1,8 +1,6 @@
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
-public class Card {
+public class Card implements Comparable<Card> {
 
     private final Rank rank;
     private final Suit suit;
@@ -17,6 +15,14 @@ public class Card {
             }
         }
         return Collections.unmodifiableMap(cache);
+    }
+
+    public static Card getCard(final Rank rank,
+                        final Suit suit) {
+
+        final Card card = Objects.requireNonNull(CARD_CACHE.get(cardKey(rank, suit)), "Invalid card:" + rank + suit);
+
+        return card;
     }
 
     private static String cardKey(final Rank rank,
@@ -35,11 +41,32 @@ public class Card {
         return String.format("%s of %s", this.rank, this.suit);
     }
 
+    @Override
+    public int compareTo(Card o) {
+        final int rankComparison = Integer.compare(this.rank.getRankValue(), o.rank.getRankValue());
+
+        if(rankComparison != 0) {
+            return rankComparison;
+        }
+
+        return Integer.compare(this.suit.getSuitValue(), o.suit.getSuitValue());
+    }
+
     enum Suit {
-        DIAMONDS,
-        HEARTS,
-        SPADES,
-        CLUBS
+        DIAMONDS(1),
+        HEARTS(2),
+        SPADES(3),
+        CLUBS(4);
+
+        private final int suitValue;
+
+        Suit(final int suitValue) {
+            this.suitValue = suitValue;
+        }
+
+        public int getSuitValue() {
+            return this.suitValue;
+        }
     };
 
     enum Rank {
@@ -61,6 +88,10 @@ public class Card {
 
         Rank(final int rankValue) {
             this.rankValue = rankValue;
+        }
+
+        public int getRankValue() {
+            return this.rankValue;
         }
     };
 }
