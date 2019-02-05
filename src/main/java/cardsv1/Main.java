@@ -1,3 +1,5 @@
+package cardsv1;
+
 import java.util.stream.IntStream;
 
 public class Main {
