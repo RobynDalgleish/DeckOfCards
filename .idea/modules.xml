@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/deck-of-cards.iml" filepath="$PROJECT_DIR$/deck-of-cards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.robyn.project.exercise.iml" filepath="$PROJECT_DIR$/.idea/modules/com.robyn.project.exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.robyn.project.exercise.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.robyn.project.exercise.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.robyn.project.exercise.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.robyn.project.exercise.test.iml" />
     </modules>
   </component>
 </project>

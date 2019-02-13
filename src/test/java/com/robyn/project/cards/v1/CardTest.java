@@ -1,4 +1,4 @@
-package cardsv1;
+package com.robyn.project.cards.v1;
 
 import static org.junit.Assert.*;
 

@@ -1,2 +1,25 @@
+#maven
 out/
-.idea/
+
+# MacOS
+Thumbs.db
+.DS_Store
+
+# Gradle
+.gradle
+
+# Build
+build/
+target/
+out/
+
+# IntelliJ
+.idea
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.settings
+.classpath
