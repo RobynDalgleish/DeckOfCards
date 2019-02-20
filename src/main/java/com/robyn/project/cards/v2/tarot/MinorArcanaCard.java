@@ -34,7 +34,7 @@ public class MinorArcanaCard extends TarotCard {
         FIVE("a betrayal of"),
         SIX("a success in"),
         SEVEN("a forced departure from"),
-        EIGHT("a selective departue from"),
+        EIGHT("a selective departure from"),
         NINE("a sudden rise in"),
         TEN("a sustained pattern of"),
         PAIGE("a naive perspective on"),
