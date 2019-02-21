@@ -1,14 +1,12 @@
 package com.robyn.project.cards.v2.tarot;
 
-import com.robyn.project.cards.v2.PlayingCard;
 import org.junit.Test;
 
 import java.util.Stack;
 
-import static com.robyn.project.cards.v2.tarot.MajorArcanaCard.MajorArcana.*;
-import static com.robyn.project.cards.v2.tarot.MajorArcanaCard.MajorArcanaRank.*;
-import static org.junit.jupiter.api.Assertions.*;
-import static com.robyn.project.cards.v2.tarot.MajorArcanaCard.MajorArcana;
+import static com.robyn.project.cards.v2.tarot.MajorArcana.*;
+import static com.robyn.project.cards.v2.tarot.MajorArcanaNumeral.*;
+import static org.junit.Assert.*;
 
 public class MajorArcanaCardTest {
 
@@ -54,7 +52,7 @@ public class MajorArcanaCardTest {
 
     @Test
     public void testEveryMajorArcanaCardCanBeRepresented() {
-        Stack<PlayingCard> cardStack = new Stack<>();
+        Stack<TarotCard> cardStack = new Stack<>();
 
         for (MajorArcana a : MajorArcana.values()) {
             cardStack.push(new MajorArcanaCard(a));
@@ -64,7 +62,7 @@ public class MajorArcanaCardTest {
         assertAllMajorArcanaCardsArePresent(cardStack);
     }
 
-    static void assertAllMajorArcanaCardsArePresent(Stack<PlayingCard> cardStack) {
+    static void assertAllMajorArcanaCardsArePresent(Stack<TarotCard> cardStack) {
         assertTrue(cardStack.search(new MajorArcanaCard(FOOL)) > -1);
         assertTrue(cardStack.search(new MajorArcanaCard(MAGICIAN)) > -1);
         assertTrue(cardStack.search(new MajorArcanaCard(HIGH_PRIESTESS)) > -1);

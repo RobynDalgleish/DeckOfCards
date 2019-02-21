@@ -1,16 +1,13 @@
 package com.robyn.project.cards.v2.tarot;
 
-import com.robyn.project.cards.v2.PlayingCard;
-import com.robyn.project.cards.v2.Suit;
 import org.junit.Test;
 
 import java.util.Stack;
 
-import static com.robyn.project.cards.v2.tarot.MinorArcanaCard.MinorArcanaRank.*;
-import static com.robyn.project.cards.v2.tarot.MinorArcanaCard.MinorArcanaSuit.*;
-import static com.robyn.project.cards.v2.tarot.MinorArcanaCard.MinorArcanaSuit;
-import static com.robyn.project.cards.v2.tarot.MinorArcanaCard.MinorArcanaRank;
-import static org.junit.jupiter.api.Assertions.*;
+import static com.robyn.project.cards.v2.tarot.MinorArcanaRank.*;
+import static com.robyn.project.cards.v2.tarot.MinorArcanaSuit.*;
+import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class MinorArcanaCardTest {
 
@@ -27,7 +24,7 @@ public class MinorArcanaCardTest {
 
     @Test
     public void testEveryMinorArcanaCardCanBeRepresented() {
-        Stack<PlayingCard> cardStack = new Stack<>();
+        Stack<TarotCard> cardStack = new Stack<>();
         for (MinorArcanaSuit s : MinorArcanaSuit.values()) {
             for (MinorArcanaRank r : MinorArcanaRank.values()) {
                 cardStack.push(new MinorArcanaCard(r, s));
@@ -36,14 +33,14 @@ public class MinorArcanaCardTest {
         assertAllMinorArcanaCardsArePresent(cardStack);
     }
 
-    static void assertAllMinorArcanaCardsArePresent(Stack<PlayingCard> cardStack) {
+    static void assertAllMinorArcanaCardsArePresent(Stack<TarotCard> cardStack) {
         assertAllRanksOfGivenSuitArePresent(cardStack, SWORDS);
         assertAllRanksOfGivenSuitArePresent(cardStack, PENTACLES);
         assertAllRanksOfGivenSuitArePresent(cardStack, WANDS);
         assertAllRanksOfGivenSuitArePresent(cardStack, CUPS);
     }
 
-    private static void assertAllRanksOfGivenSuitArePresent(Stack<PlayingCard> cardStack, Suit suit) {
+    private static void assertAllRanksOfGivenSuitArePresent(Stack<TarotCard> cardStack, MinorArcanaSuit suit) {
         assertTrue(cardStack.search(new MinorArcanaCard(ACE, suit)) > -1);
         assertTrue(cardStack.search(new MinorArcanaCard(TWO, suit)) > -1);
         assertTrue(cardStack.search(new MinorArcanaCard(THREE, suit)) > -1);

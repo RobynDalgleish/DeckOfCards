@@ -1,7 +1,5 @@
 package com.robyn.project.cards.v2.standard;
 
-import com.robyn.project.cards.v2.PlayingCard;
-import com.robyn.project.cards.v2.Suit;
 import static com.robyn.project.cards.v2.standard.StandardPlayingCard.StandardSuit;
 import static com.robyn.project.cards.v2.standard.StandardPlayingCard.StandardRank;
 import org.junit.Test;
@@ -27,7 +25,7 @@ public class StandardPlayingCardTest {
 
     @Test
     public void testEveryStandardStandardPlayingCardCanBeRepresented() {
-        Stack<PlayingCard> stackOfStandardPlayingPlayingCards = new Stack<>();
+        Stack<StandardPlayingCard> stackOfStandardPlayingPlayingCards = new Stack<>();
 
         for (StandardSuit s : StandardSuit.values()) {
             for (StandardRank r : StandardRank.values()) {
@@ -43,7 +41,7 @@ public class StandardPlayingCardTest {
         assertAllRanksOfGivenSuitArePresent(stackOfStandardPlayingPlayingCards, HEARTS);
     }
 
-    static void assertAllRanksOfGivenSuitArePresent(Stack<PlayingCard> stackOfStandardPlayingPlayingCards, Suit suit) {
+    static void assertAllRanksOfGivenSuitArePresent(Stack<StandardPlayingCard> stackOfStandardPlayingPlayingCards, StandardPlayingCard.StandardSuit suit) {
         assertTrue(stackOfStandardPlayingPlayingCards.search(new StandardPlayingCard(ACE, suit)) > -1);
         assertTrue(stackOfStandardPlayingPlayingCards.search(new StandardPlayingCard(TWO, suit)) > -1);
         assertTrue(stackOfStandardPlayingPlayingCards.search(new StandardPlayingCard(THREE, suit)) > -1);

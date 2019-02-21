@@ -1,9 +1,5 @@
 package com.robyn.project.cards.v2.tarot;
 
-import com.robyn.project.cards.v2.PlayingCard;
-import static com.robyn.project.cards.v2.tarot.MinorArcanaCard.MinorArcanaSuit;
-import static com.robyn.project.cards.v2.tarot.MinorArcanaCard.MinorArcanaRank;
-import static com.robyn.project.cards.v2.tarot.MajorArcanaCard.MajorArcana;
 import org.junit.Test;
 
 import java.util.Stack;
@@ -15,7 +11,7 @@ public class TarotCardTest {
 
     @Test
     public void testEveryTarotCardCanBeRepresented() {
-        Stack<PlayingCard> cardStack = new Stack<>();
+        Stack<TarotCard> cardStack = new Stack<>();
 
         for (MinorArcanaSuit s : MinorArcanaSuit.values()) {
             for (MinorArcanaRank r : MinorArcanaRank.values()) {

@@ -5,9 +5,9 @@ import com.robyn.project.cards.v2.Rank;
 import com.robyn.project.cards.v2.Suit;
 
 
-public abstract class TarotCard extends PlayingCard {
+public abstract class TarotCard<R extends Rank, S extends Suit> extends PlayingCard<R, S> {
 
-    public TarotCard(Rank rank, Suit suit) {
+    public TarotCard(R rank, S suit) {
         super(rank, suit);
     }
 

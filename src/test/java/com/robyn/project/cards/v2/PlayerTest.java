@@ -1,19 +1,19 @@
-package com.robyn.project.cards.v2;
-
-import org.junit.Test;
-
-import static org.junit.Assert.*;
-
-public class PlayerTest {
-
-    @Test
-    public void testPlayerHasAHand() {
-        assertNotNull(new Player().getHand());
-    }
-
+//package com.robyn.project.cards.v2;
+//
+//import org.junit.Test;
+//
+//import static org.junit.Assert.*;
+//
+//public class PlayerTest {
+//
 //    @Test
-//    public void testPlayerHasHandWithCorrectNumberOfCards() {
-//        assertEquals(DEFAULT_HAND_SIZE, new Hand().size());
+//    public void testPlayerHasAHand() {
+//        assertNotNull(new Player().getHand());
 //    }
-
-}
+//
+////    @Test
+////    public void testPlayerHasHandWithCorrectNumberOfCards() {
+////        assertEquals(DEFAULT_HAND_SIZE, new Hand().size());
+////    }
+//
+//}

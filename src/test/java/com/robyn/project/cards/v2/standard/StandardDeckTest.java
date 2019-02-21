@@ -1,14 +1,14 @@
 package com.robyn.project.cards.v2.standard;
 
-import com.robyn.project.cards.v2.PlayingCard;
 import org.junit.Test;
 
 import java.util.HashSet;
 import java.util.Stack;
 
-import static com.robyn.project.cards.v2.standard.StandardPlayingCardTest.assertAllRanksOfGivenSuitArePresent;
 import static com.robyn.project.cards.v2.standard.StandardPlayingCard.StandardSuit.*;
+import static com.robyn.project.cards.v2.standard.StandardPlayingCardTest.assertAllRanksOfGivenSuitArePresent;
 import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotEquals;
 
 public class StandardDeckTest {
 
@@ -26,7 +26,7 @@ public class StandardDeckTest {
 
     @Test
     public void testNewStandardDeckContainsAllStandardCards() {
-        Stack<PlayingCard> stackOfPlayingCards = new StandardDeck().getPlayingCards();
+        Stack<StandardPlayingCard> stackOfPlayingCards = new StandardDeck().getPlayingCards();
         assertAllRanksOfGivenSuitArePresent(stackOfPlayingCards, SPADES);
         assertAllRanksOfGivenSuitArePresent(stackOfPlayingCards, DIAMONDS);
         assertAllRanksOfGivenSuitArePresent(stackOfPlayingCards, CLUBS);
@@ -35,7 +35,7 @@ public class StandardDeckTest {
 
     @Test
     public void testNewStandardDeckContainsNoDuplicates() {
-        Stack<PlayingCard> playingCards = new StandardDeck().getPlayingCards();
+        Stack<StandardPlayingCard> playingCards = new StandardDeck().getPlayingCards();
         assertEquals(playingCards.size(), new HashSet<>(playingCards).size());
     }
 

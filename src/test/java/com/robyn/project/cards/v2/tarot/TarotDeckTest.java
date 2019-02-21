@@ -1,11 +1,11 @@
 package com.robyn.project.cards.v2.tarot;
 
-import com.robyn.project.cards.v2.PlayingCard;
 import org.junit.Test;
 
 import java.util.HashSet;
 import java.util.Stack;
 
+import static com.robyn.project.cards.v2.tarot.MajorArcanaCardTest.assertAllMajorArcanaCardsArePresent;
 import static com.robyn.project.cards.v2.tarot.MinorArcanaCardTest.assertAllMinorArcanaCardsArePresent;
 import static org.junit.Assert.*;
 
@@ -20,17 +20,14 @@ public class TarotDeckTest {
 
     @Test
     public void testNewTarotDeckContainsAllTarotCards() {
-        Stack<PlayingCard> cardStack = new TarotDeck().getPlayingCards();
+        Stack<TarotCard> cardStack = new TarotDeck().getPlayingCards();
         assertAllMinorArcanaCardsArePresent(cardStack);
         assertAllMajorArcanaCardsArePresent(cardStack);
     }
 
-    private void assertAllMajorArcanaCardsArePresent(Stack<PlayingCard> cardStack) {
-    }
-
     @Test
     public void testNewTarotDeckContainsNoDuplicates() {
-        Stack<PlayingCard> playingCards = new TarotDeck().getPlayingCards();
+        Stack<TarotCard> playingCards = new TarotDeck().getPlayingCards();
         assertEquals(playingCards.size(), new HashSet<>(playingCards).size());
     }
 
