@@ -1,21 +1,34 @@
 package com.robyn.project.cards.v2;
 
-public abstract class CardGame {
+import com.robyn.project.cards.v2.standard.blackjack.Player;
 
-    private Deck deck;
+import java.util.ArrayList;
+import java.util.List;
 
-    public CardGame(Deck deck) {
+public abstract class CardGame<T extends Deck> {
+
+    protected T deck;
+    protected Player dealer;
+    protected List<Player> players;
+
+    public CardGame(T deck) {
         this.deck = deck;
-        init();
+        this.dealer = new Player();
+        this.players = new ArrayList<>();
         deck.shuffle();
-        deal();
     }
 
-    public Deck getDeck() {
+    public T getDeck() {
         return deck;
     }
 
-    protected abstract void init();
+    public Player getDealer() {
+        return dealer;
+    }
+
+    public List<Player> getPlayers() {
+        return players;
+    }
 
     protected abstract void deal();
 }
