@@ -2,51 +2,35 @@ package com.robyn.project.cards.v2.tarot;
 
 import com.robyn.project.cards.v2.CardGame;
 
-import java.util.Stack;
-
 import static java.lang.String.format;
 
-public class TarotReading extends CardGame<TarotDeck> {
+public class TarotReading extends CardGame<TarotDeck, TarotPlayer> {
 
-    private TarotCard past;
-    private TarotCard present;
-    private TarotCard future;
-    private TarotCard overArching;
+    public static final int DEFAULT_NUMBER_OF_PLAYERS = 1;
 
     public TarotReading() {
-        super(new TarotDeck());
+        this(DEFAULT_NUMBER_OF_PLAYERS);
+    }
+
+    public TarotReading(int numberOfPlayers) {
+        super(new TarotDeck(), new TarotPlayer());
+        for (int p = 0; p < numberOfPlayers; p++) {
+                players.add(new TarotPlayer());
+        }
         deal();
     }
 
     protected void deal() {
-        Stack<TarotCard> cards = this.getDeck().getPlayingCards();
-        this.past = cards.pop();
-        this.present = cards.pop();
-        this.future = cards.pop();
-        this.overArching = cards.pop();
-    }
-
-    public TarotCard getPast() {
-        return past;
-    }
-
-    public TarotCard getPresent() {
-        return present;
-    }
-
-    public TarotCard getFuture() {
-        return future;
-    }
-
-    public TarotCard getOverArching() {
-        return overArching;
+        for (int i = 0; i < TarotSpread.getNumberOfCardsInSpread(); i++) {
+            dealer.draw(deck);
+        }
     }
 
     public String toString() {
-        TarotCard past = this.getPast();
-        TarotCard present = this.getPresent();
-        TarotCard future = this.getFuture();
-        TarotCard overArching = this.getOverArching();
+        TarotCard past = dealer.getHand().getPast();
+        TarotCard present = dealer.getHand().getPresent();
+        TarotCard future = dealer.getHand().getFuture();
+        TarotCard overArching = dealer.getHand().getOverArching();
         return format("Your Reading:%n%nYour past is represented by the %s, which signifies %s.%n"
                         + "Your present is represented by the %s, which signifies %s.%n"
                         + "Your future is represented by the %s, which signifies %s.%n"

@@ -2,23 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="303ec25b-6bc9-4490-9c96-ff9916ac711a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MajorArcana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MajorArcanaNumeral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MinorArcanaRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MinorArcanaSuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/war/WarHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/war/WarPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotSpread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/war/WarGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MajorArcanaCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MajorArcanaCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MinorArcanaCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MinorArcanaCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/CardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackHand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/war/WarGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/war/WarGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotReading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/PlayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/StandardDeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/StandardDeckTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/StandardPlayingCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/StandardPlayingCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/MajorArcanaCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/MajorArcanaCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/MinorArcanaCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/MinorArcanaCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotDeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotDeckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotReadingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotReadingTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,66 +36,30 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="exercise" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MinorArcanaCard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Deck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/StandardPlayingCardTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="82" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotReadingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/PlayerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#412#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/StandardDeckTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="246">
+              <caret line="64" column="65" lean-forward="true" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,43 +68,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MajorArcanaCard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotCard.java">
+        <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.1-zulu/lib/src.zip!/java.base/java/lang/Object.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="244" column="18" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#11222#11223#0" expanded="true" />
+                <element signature="e#11305#11306#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotCardTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/CardGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotDeckTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
-              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state relative-caret-position="390">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,19 +98,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="package-info" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Rank</find>
+      <find>BlackJack</find>
+      <find>tarotDealer.</find>
+      <find>Reading</find>
+      <find>tarotDealer</find>
     </findStrings>
     <replaceStrings>
       <replace>S</replace>
       <replace>R</replace>
+      <replace>War</replace>
+      <replace>tarotDealer.getHand()</replace>
+      <replace>Dealer</replace>
+      <replace>tarotReading</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -176,16 +129,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/CardGameTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Hand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/CardGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/Hand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/StandardDeck.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/StandardPlayingCard.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/PlayingCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Deck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackGame.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackGameTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MajorArcanaCard.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MajorArcanaNumeral.java" />
@@ -195,24 +143,37 @@
         <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Rank.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotDeck.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MinorArcanaCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotReading.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/MajorArcanaCardTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/MinorArcanaCardTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotCardTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotDeckTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotReadingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotCard.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/StandardPlayingCardTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/StandardDeckTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/war/WarGameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/CardGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Deck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/war/WarGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Hand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotReading.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackHand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/war/WarHand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/war/WarPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotSpread.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotReadingTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="16" />
-    <option name="width" value="1853" />
-    <option name="height" value="1064" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -220,6 +181,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,41 +249,43 @@
               <item name="DeckOfCards" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeckOfCards" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeckOfCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeckOfCards" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeckOfCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeckOfCards" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cards" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeckOfCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeckOfCards" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cards" type="462c0819:PsiDirectoryNode" />
-              <item name="v2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeckOfCards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeckOfCards" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cards" type="462c0819:PsiDirectoryNode" />
               <item name="v2" type="462c0819:PsiDirectoryNode" />
               <item name="standard" type="462c0819:PsiDirectoryNode" />
+              <item name="war" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeckOfCards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeckOfCards" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+              <item name="v2" type="462c0819:PsiDirectoryNode" />
+              <item name="tarot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeckOfCards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeckOfCards" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeckOfCards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeckOfCards" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeckOfCards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeckOfCards" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DeckOfCards" type="b2602c69:ProjectViewProjectNode" />
@@ -331,20 +295,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cards" type="462c0819:PsiDirectoryNode" />
               <item name="v2" type="462c0819:PsiDirectoryNode" />
-              <item name="standard" type="462c0819:PsiDirectoryNode" />
-              <item name="blackjack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeckOfCards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeckOfCards" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+              <item name="v2" type="462c0819:PsiDirectoryNode" />
+              <item name="tarot" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550783425920" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550877511436" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../card-practice/pom.xml" />
@@ -353,6 +324,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.robyn.project.cards.v2.tarot" />
+      <recent name="com.robyn.project.cards.v2.standard.war" />
       <recent name="com.robyn.project.cards.v2.standard.blackjack" />
       <recent name="com.robyn.project.cards.v2" />
     </key>
@@ -360,6 +333,8 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.robyn.project.cards.v2.tarot" />
+      <recent name="com.robyn.project.cards.v2" />
       <recent name="com.robyn.project.cards.v2.standard.blackjack" />
     </key>
   </component>
@@ -375,32 +350,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.tarot in com.robyn.project.exercise.test">
-    <configuration name="BlackJackGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.java in com.robyn.project.exercise.test">
+    <configuration name="TarotDealerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.robyn.project.exercise.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.robyn.project.cards.v2.standard.blackjack.*" />
+          <option name="PATTERN" value="com.robyn.project.cards.v2.tarot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.robyn.project.cards.v2.standard.blackjack" />
-      <option name="MAIN_CLASS_NAME" value="com.robyn.project.cards.v2.standard.blackjack.BlackJackGameTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.robyn.project.exercise.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.robyn.project.cards.v2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.robyn.project.cards.v2" />
-      <option name="MAIN_CLASS_NAME" value="com.robyn.project.cards.v2.PlayerTest" />
+      <option name="PACKAGE_NAME" value="com.robyn.project.cards.v2.tarot" />
+      <option name="MAIN_CLASS_NAME" value="com.robyn.project.cards.v2.tarot.TarotDealerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -421,6 +381,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WarGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.robyn.project.exercise.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.robyn.project.cards.v2.standard.war.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.robyn.project.cards.v2.standard.war" />
+      <option name="MAIN_CLASS_NAME" value="com.robyn.project.cards.v2.standard.war.WarGameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in com.robyn.project.exercise.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.robyn.project.exercise.test" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tarot in com.robyn.project.exercise.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.robyn.project.exercise.test" />
       <option name="TEST_OBJECT" value="directory" />
@@ -431,10 +414,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.tarot in com.robyn.project.exercise.test" />
+        <item itemvalue="JUnit.java in com.robyn.project.exercise.test" />
         <item itemvalue="JUnit.TarotReadingTest" />
-        <item itemvalue="JUnit.BlackJackGameTest" />
-        <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="JUnit.TarotDealerTest" />
+        <item itemvalue="JUnit.WarGameTest" />
+        <item itemvalue="JUnit.tarot in com.robyn.project.exercise.test" />
       </list>
     </recent_temporary>
   </component>
@@ -448,44 +432,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550588788639</updated>
-      <workItem from="1550588792075" duration="24009000" />
+      <workItem from="1550588792075" duration="26961000" />
+      <workItem from="1550847215346" duration="5368000" />
+      <workItem from="1550859798707" duration="16532000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TarotReadingTest - 2019.02.19 at 10h 13m 22s.xml">
+    <history-entry file="WarGameTest - 2019.02.22 at 10h 25m 07s.xml">
+      <configuration name="WarGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarGameTest - 2019.02.22 at 10h 46m 49s.xml">
+      <configuration name="WarGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarGameTest - 2019.02.22 at 13h 33m 13s.xml">
+      <configuration name="WarGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarGameTest - 2019.02.22 at 15h 51m 09s.xml">
+      <configuration name="WarGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TarotDealerTest - 2019.02.22 at 16h 57m 39s.xml">
+      <configuration name="TarotDealerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TarotReadingTest - 2019.02.22 at 16h 58m 48s.xml">
       <configuration name="TarotReadingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TarotReadingTest - 2019.02.20 at 14h 16m 21s.xml">
+    <history-entry file="TarotReadingTest - 2019.02.22 at 18h 14m 58s.xml">
       <configuration name="TarotReadingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TarotReadingTest - 2019.02.20 at 16h 41m 38s.xml">
-      <configuration name="TarotReadingTest" configurationId="JUnit" />
+    <history-entry file="java_in_com_robyn_project_exercise_test - 2019.02.22 at 18h 19m 07s.xml">
+      <configuration name="java in com.robyn.project.exercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlayerTest - 2019.02.20 at 17h 05m 54s.xml">
-      <configuration name="PlayerTest" configurationId="JUnit" />
+    <history-entry file="java_in_com_robyn_project_exercise_test - 2019.02.22 at 18h 24m 13s.xml">
+      <configuration name="java in com.robyn.project.exercise.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PlayerTest - 2019.02.20 at 17h 06m 49s.xml">
-      <configuration name="PlayerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BlackJackGameTest - 2019.02.21 at 15h 39m 56s.xml">
-      <configuration name="BlackJackGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TarotReadingTest - 2019.02.21 at 15h 40m 13s.xml">
-      <configuration name="TarotReadingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TarotReadingTest - 2019.02.21 at 15h 41m 14s.xml">
-      <configuration name="TarotReadingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="tarot_in_com_robyn_project_exercise_test - 2019.02.21 at 15h 55m 54s.xml">
-      <configuration name="tarot in com.robyn.project.exercise.test" configurationId="JUnit" />
+    <history-entry file="java_in_com_robyn_project_exercise_test - 2019.02.22 at 18h 26m 16s.xml">
+      <configuration name="java in com.robyn.project.exercise.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24009000" />
+    <option name="totallyTimeSpent" value="48861000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="16" width="1853" height="1064" extended-state="0" />
+    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -493,24 +482,24 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24958494" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24599786" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3287858" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Build" order="5" weight="0.32834226" />
+      <window_info anchor="bottom" id="Build" order="5" weight="0.32738718" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.35721925" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.3567681" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.32982844" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -542,181 +531,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Hand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/StandardDeck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/StandardPlayingCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Hand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-start-column="2" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-start-column="2" selection-end-line="78" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#1712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/Hand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackGameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Rank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MinorArcanaRank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MajorArcanaNumeral.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding>
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/PlayingCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/CardGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotDeck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MinorArcanaSuit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MajorArcana.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.1-zulu/lib/src.zip!/java.base/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="3166" selection-start-line="3166" selection-end-line="3166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotReading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,43 +575,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MinorArcanaCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MajorArcanaCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/StandardPlayingCardTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="82" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#412#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -807,22 +603,286 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotReadingTest.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="-486" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/PlayerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Rank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
-            <element signature="e#0#412#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/StandardDeck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/StandardPlayingCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MinorArcanaSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MinorArcanaRank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MinorArcanaCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MajorArcanaNumeral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MajorArcanaCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/MajorArcana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/war/WarGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/standard/war/WarGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/war/WarHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/war/WarPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/standard/blackjack/BlackJackPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotReading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.1-zulu/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="244" column="18" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
+          <folding>
+            <element signature="e#11222#11223#0" expanded="true" />
+            <element signature="e#11305#11306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/CardGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotSpread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/tarot/TarotDeck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/PlayingCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/robyn/project/cards/v2/Hand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/robyn/project/cards/v2/tarot/TarotReadingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="64" column="65" lean-forward="true" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

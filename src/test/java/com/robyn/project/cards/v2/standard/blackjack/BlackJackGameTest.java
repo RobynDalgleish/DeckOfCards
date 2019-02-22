@@ -37,7 +37,7 @@ public class BlackJackGameTest {
     @Test
     public void testBlackJackPlayersStartWithExactlyTwoCards() {
         BlackJackGame game = new BlackJackGame();
-        for (Player p : game.getPlayers()) {
+        for (BlackJackPlayer p : game.getPlayers()) {
             assertTrue(p.getHand().size() == 2);
         }
     }
@@ -51,7 +51,7 @@ public class BlackJackGameTest {
         collectiveHands.addAll(game.getDealer().getHand().getCards());
         expectedUniqueCardCount += 2; // equiv. to [ count = count + 2 ]
 
-        for (Player p : game.getPlayers()) {
+        for (BlackJackPlayer p : game.getPlayers()) {
             collectiveHands.addAll(p.getHand().getCards());
             expectedUniqueCardCount += 2;
         }
@@ -72,9 +72,9 @@ public class BlackJackGameTest {
     @Test
     public void testBlackJackPlayerCanHit() {
         BlackJackGame game = new BlackJackGame();
-        List<Player> players = game.getPlayers();
+        List<BlackJackPlayer> players = game.getPlayers();
         assertEquals(1, players.size());
-        Player onlyPlayer = players.get(0);
+        BlackJackPlayer onlyPlayer = players.get(0);
 
         assertEquals(2, onlyPlayer.getHand().size());
         game.hit(onlyPlayer);
@@ -83,7 +83,7 @@ public class BlackJackGameTest {
 
     @Test
     public void testBlackJackHandCanBeEvaluated() {
-        Hand hand = new Hand();
+        BlackJackHand hand = new BlackJackHand();
         hand.addCard(new StandardPlayingCard(FIVE, DIAMONDS));
         hand.addCard(new StandardPlayingCard(THREE, SPADES));
         assertEquals(8, evaluateHand(hand));
@@ -91,17 +91,17 @@ public class BlackJackGameTest {
 
     @Test
     public void testFaceCardsEvaluateAsTens() {
-        Hand hand = new Hand();
+        BlackJackHand hand = new BlackJackHand();
         hand.addCard(new StandardPlayingCard(JACK, DIAMONDS));
         hand.addCard(new StandardPlayingCard(THREE, SPADES));
         assertEquals(13, evaluateHand(hand));
 
-        hand = new Hand();
+        hand = new BlackJackHand();
         hand.addCard(new StandardPlayingCard(QUEEN, DIAMONDS));
         hand.addCard(new StandardPlayingCard(THREE, SPADES));
         assertEquals(13, evaluateHand(hand));
 
-        hand = new Hand();
+        hand = new BlackJackHand();
         hand.addCard(new StandardPlayingCard(KING, DIAMONDS));
         hand.addCard(new StandardPlayingCard(THREE, SPADES));
         assertEquals(13, evaluateHand(hand));
@@ -109,12 +109,12 @@ public class BlackJackGameTest {
 
     @Test
     public void testAcesAreEvaluatedAsOneInLowValueAndAsElevenInHighValue() {
-        Hand hand = new Hand();
+        BlackJackHand hand = new BlackJackHand();
         hand.addCard(new StandardPlayingCard(ACE, DIAMONDS));
         hand.addCard(new StandardPlayingCard(KING, SPADES));
         assertEquals(11, hand.getLowValue());
 
-        hand = new Hand();
+        hand = new BlackJackHand();
         hand.addCard(new StandardPlayingCard(ACE, DIAMONDS));
         hand.addCard(new StandardPlayingCard(KING, SPADES));
         assertEquals(21, hand.getHighValue());
@@ -122,7 +122,7 @@ public class BlackJackGameTest {
 
     @Test
     public void testFinalEvaluationFavoursHighestValidValue() {
-        Hand hand = new Hand();
+        BlackJackHand hand = new BlackJackHand();
         hand.addCard(new StandardPlayingCard(ACE, DIAMONDS));
         hand.addCard(new StandardPlayingCard(KING, SPADES));
         assertEquals(21, evaluateHand(hand));

@@ -19,49 +19,50 @@ public class TarotReadingTest {
 
     @Test
     public void testTarotReadingHasASpreadOfTarotCards() {
-        TarotReading tarotReading = new TarotReading();
+        TarotPlayer tarotDealer = new TarotReading().getDealer();
 
-        PlayingCard past = tarotReading.getPast();
+        PlayingCard past = tarotDealer.getHand().getPast();
         assertNotNull(past);
         assertTrue(past instanceof TarotCard);
 
-        PlayingCard present = tarotReading.getPresent();
+        PlayingCard present = tarotDealer.getHand().getPresent();
         assertNotNull(present);
         assertTrue(present instanceof TarotCard);
 
-        PlayingCard future = tarotReading.getFuture();
+        PlayingCard future = tarotDealer.getHand().getFuture();
         assertNotNull(future);
         assertTrue(future instanceof TarotCard);
 
-        TarotCard overArching = tarotReading.getOverArching();
+        TarotCard overArching = tarotDealer.getHand().getOverArching();
         assertNotNull(overArching);
         assertTrue(overArching instanceof TarotCard);
     }
 
     @Test
-    public void testTarotReadingsAreUsuallyUnique() {
-        TarotReading tarotReading = new TarotReading();
-        TarotReading anotherTarotReading;
+    public void testTarotReadingSpreadsAreUsuallyUnique() {
+        TarotPlayer tarotDealer = new TarotReading().getDealer();
+        TarotPlayer anotherTarotDealer;
         int timesDealtToSameState = 0;
 
         for (int i = 0; i < 10; i++) {
-            anotherTarotReading = new TarotReading();
-            if (spreadIsEqual(tarotReading, anotherTarotReading) && ++timesDealtToSameState > 1) {
+            anotherTarotDealer = new TarotReading().getDealer();
+            if (spreadIsEqual(tarotDealer.getHand(), anotherTarotDealer.getHand()) && ++timesDealtToSameState > 1) {
                 fail();
             }
         }
     }
 
-    private static boolean spreadIsEqual(TarotReading tarotReading, TarotReading anotherTarotReading) {
-        return tarotReading.getPast().equals(anotherTarotReading.getPast())
-                && tarotReading.getPresent().equals(anotherTarotReading.getPresent())
-                && tarotReading.getFuture().equals(anotherTarotReading.getFuture())
-                && tarotReading.getOverArching().equals(anotherTarotReading.getOverArching());
+    private static boolean spreadIsEqual(TarotSpread tarotDealer, TarotSpread anotherTarotDealer) {
+        return tarotDealer.getPast().equals(anotherTarotDealer.getPast())
+                && tarotDealer.getPresent().equals(anotherTarotDealer.getPresent())
+                && tarotDealer.getFuture().equals(anotherTarotDealer.getFuture())
+                && tarotDealer.getOverArching().equals(anotherTarotDealer.getOverArching());
     }
 
     @Test
     public void testTarotReadingGeneratesAReading() {
-        TarotReading tarotReading = new TarotReading();
+        TarotReading reading = new TarotReading();
+        TarotSpread tarotReading = reading.getDealer().getHand();
         TarotCard past = tarotReading.getPast();
         TarotCard present = tarotReading.getPresent();
         TarotCard future = tarotReading.getFuture();
@@ -73,7 +74,7 @@ public class TarotReadingTest {
                 past, past.getMeaning(),
                 present, present.getMeaning(),
                 future, future.getMeaning(),
-                overArching, overArching.getMeaning()), tarotReading.toString());
-        System.out.println(tarotReading.toString());
+                overArching, overArching.getMeaning()), reading.toString());
+        System.out.println(reading.toString());
     }
 }

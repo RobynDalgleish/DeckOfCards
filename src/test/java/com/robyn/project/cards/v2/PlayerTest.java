@@ -8,12 +8,12 @@
 //
 //    @Test
 //    public void testPlayerHasAHand() {
-//        assertNotNull(new Player().getHand());
+//        assertNotNull(new BlackJackPlayer().getHand());
 //    }
 //
 ////    @Test
 ////    public void testPlayerHasHandWithCorrectNumberOfCards() {
-////        assertEquals(DEFAULT_HAND_SIZE, new Hand().size());
+////        assertEquals(DEFAULT_HAND_SIZE, new BlackJackHand().size());
 ////    }
 //
 //}

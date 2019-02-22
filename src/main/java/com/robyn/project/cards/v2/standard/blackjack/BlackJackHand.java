@@ -1,5 +1,6 @@
 package com.robyn.project.cards.v2.standard.blackjack;
 
+import com.robyn.project.cards.v2.Hand;
 import com.robyn.project.cards.v2.standard.StandardPlayingCard;
 import com.robyn.project.cards.v2.standard.StandardPlayingCard.StandardRank;
 
@@ -9,7 +10,7 @@ import java.util.List;
 import static com.robyn.project.cards.v2.standard.StandardPlayingCard.StandardRank.ACE;
 import static java.lang.Math.min;
 
-public class Hand {
+public class BlackJackHand extends Hand<StandardPlayingCard, ArrayList<StandardPlayingCard> > {
 
     private static final int ACE_LOW_VALUE = 1;
     private static final int ACE_HIGH_VALUE = 11;

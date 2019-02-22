@@ -36,6 +36,10 @@ public abstract class Deck<T extends PlayingCard> {
         }
     }
 
+    public int size() {
+        return playingCards.size();
+    }
+
     public boolean equals(Object o) {
         if (this == o) {
             return true;
