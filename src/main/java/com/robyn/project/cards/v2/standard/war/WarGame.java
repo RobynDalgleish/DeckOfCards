@@ -5,7 +5,7 @@ import com.robyn.project.cards.v2.standard.StandardDeck;
 
 public class WarGame extends CardGame<StandardDeck, WarPlayer> {
 
-    public static final int DEFAULT_NUMBER_OF_PLAYERS = 2;
+    public static final int DEFAULT_NUMBER_OF_PLAYERS = 1;
 
     public WarGame() {
        this(DEFAULT_NUMBER_OF_PLAYERS);
@@ -21,8 +21,15 @@ public class WarGame extends CardGame<StandardDeck, WarPlayer> {
 
     protected void deal() {
         while (deck.size() > 1) {
-//            todo: add player with dealer
             dealer.draw(deck);
+            for (WarPlayer p : players) {
+                p.draw(deck);
+            }
         }
+    }
+
+    public void play(WarPlayer player) {
+        WarHand hand = player.getHand();
+        return hand.pop();
     }
 }

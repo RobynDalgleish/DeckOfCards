@@ -3,18 +3,21 @@ package com.robyn.project.cards.v2.standard.war;
 import com.robyn.project.cards.v2.Hand;
 import com.robyn.project.cards.v2.standard.StandardPlayingCard;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Stack;
 
-public class WarHand extends Hand<StandardPlayingCard, ArrayList<StandardPlayingCard>> {
+public class WarHand extends Hand<StandardPlayingCard, Stack<StandardPlayingCard>> {
 
-    private List<StandardPlayingCard> cards = new ArrayList<>();
+    private Stack<StandardPlayingCard> cards = new Stack<>();
 
-    public List<StandardPlayingCard> getCards() {
+    public Stack<StandardPlayingCard> getCards() {
         return cards;
     }
 
     public void addCard(StandardPlayingCard card) {
         cards.add(card);
+    }
+
+    public int size() {
+        return cards.size();
     }
 }

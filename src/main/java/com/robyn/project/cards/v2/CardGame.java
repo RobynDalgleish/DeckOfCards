@@ -1,7 +1,5 @@
 package com.robyn.project.cards.v2;
 
-import com.robyn.project.cards.v2.standard.war.WarPlayer;
-
 import java.util.ArrayList;
 import java.util.List;
 

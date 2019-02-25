@@ -1,5 +1,7 @@
 package com.robyn.project.cards.v2.standard.blackjack;
 
+import com.robyn.project.cards.v2.Deck;
+import com.robyn.project.cards.v2.standard.StandardDeck;
 import com.robyn.project.cards.v2.standard.StandardPlayingCard;
 import org.junit.Test;
 
@@ -25,8 +27,10 @@ public class BlackJackGameTest {
     }
 
     @Test
-    public void testBlackJackGameHasDeck() {
-        assertNotNull(new BlackJackGame().getDeck());
+    public void testBlackJackGameHasStandardDeck() {
+        Deck deck = new BlackJackGame().getDeck();
+        assertNotNull(deck);
+        assertTrue(deck instanceof StandardDeck);
     }
 
     @Test
@@ -57,11 +61,6 @@ public class BlackJackGameTest {
         }
 
         assertEquals(expectedUniqueCardCount, collectiveHands.size());
-    }
-
-    @Test
-    public void testBlackJackHasAtLeastOnePlayer() {
-        assertTrue(new BlackJackGame().getPlayers().size() > 0);
     }
 
     @Test
